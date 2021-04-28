@@ -14,7 +14,7 @@ Features:
 
 ## FORK FEATURES
 
-* Support formula in celss
+* Support formula in cells
 
 Set your formula as text value with prefix `formula://`. For example:
 
@@ -23,6 +23,8 @@ Set your formula as text value with prefix `formula://`. For example:
 sheet1.set(1, 1, 'formula://HYPERLINK("https://google.com/", "GOOGLE")');
 
 ```
+
+* Support font underline
 
 ## Getting Started
 
