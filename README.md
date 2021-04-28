@@ -14,7 +14,7 @@ Features:
 
 ## FORK FEATURES
 
-* Support formula in celss
+* Support formula in cells
 
 Set your formula as text value with prefix `formula://`. For example:
 
@@ -23,6 +23,8 @@ Set your formula as text value with prefix `formula://`. For example:
 sheet1.set(1, 1, 'formula://HYPERLINK("https://google.com/", "GOOGLE")');
 
 ```
+
+* Support font underline
 
 ## Getting Started
 
@@ -320,6 +322,7 @@ The options may contain:
   * `scheme` - (String) font scheme
   * `bold` - (String) if bold: 'true'/'false'
   * `iter` - (String) if italic: 'true'/'false'
+  * `underline` - (String) if need underline: 'true'/'false'
   * `color` - (String) font color as HEX RGB or ARGB value (e.g. `"2266AA"` or `"FF2266AA`"`)
 
 * `fill_style` - (Object) fill style options
